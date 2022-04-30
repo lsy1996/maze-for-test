@@ -1,2 +1,3 @@
 # maze-for-test
-maze for test
+《c语言程序设计：现代方法 第2版》
+第8章 第9题 编程题答案。
