@@ -31,26 +31,22 @@ int main()
         switch (move)
         {
             case 0:
-                if(up) 
-                {
+                if(up) {
                     grid[i][--j] = letter++;
                     break;
                 }
             case 1:
-                if(down) 
-                {
+                if(down) {
                     grid[i][++j] = letter++;
                     break;
                 }
             case 2:
-                if(left) 
-                {
+                if(left) {
                     grid[--i][j] = letter++;
                     break;
                 }
             case 3:
-                if(right) 
-                {
+                if(right) {
                     grid[++i][j] = letter++;
                     break;
                 }
@@ -59,14 +55,10 @@ int main()
         }
     }
     
-    for (int i = 0; i < 10; i++)
-    {
-        for (int j = 0; j < 10; j++)
-        {
+    for (int i = 0; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
             if (grid[i][j] == 0)
-            {
                 grid[i][j] = '.';
-            }
             printf("%c ", grid[i][j]);
         }
         printf("\n");
